@@ -1,0 +1,15 @@
+var x = 17;  //به عنوان مثال آیا این عدد کامل هست یا نه
+var sum=1;
+for(var i=2;i<x;i++)
+{
+    if(x%i==0)
+    {
+        sum+=x/i;
+    }
+}
+if(sum==x)
+{
+ console.log("adad kamel ast");   
+}
+else
+ console.log("adad kamel nist");
